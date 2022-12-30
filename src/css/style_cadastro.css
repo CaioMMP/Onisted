@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./src/imgs/fundo.webp);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.box {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 8px solid #bde7b9;
+    padding: 25px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.form {
+    color: white;
+}
+
+.legenda {
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.login_label {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    border-bottom: 0.1vh solid white;
+}
+  
+.input {
+    background-color: var(--light-grey);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+  
+.login_label span {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+.margem_dataNasc {
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+}
+
+.dataNasc {
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+}
+
+.input_dataNasc {
+    margin-left: 5vh;
+    background-color: var(--light-grey);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+  
+.input:focus {
+    background-color: var(--whitesmoke);
+    border: 2px solid var(--deep-grey);
+}
+
+.login_label .span-active {
+  font-size: 0.7em;
+  margin: 8px 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #7bc974;
+}
